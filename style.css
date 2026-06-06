@@ -1,0 +1,20 @@
+body {
+  background: #0e0e18;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+.chat-container {
+  width: 400px;
+  margin: 80px auto;
+  background: #1a1a2b;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(255,255,255,0.1);
+}
+#chat-box {
+  height: 300px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+.user { text-align: right; color: #4ea8de; }
+.bot { text-align: left; color: #f0a500; }
